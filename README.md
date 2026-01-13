@@ -35,15 +35,18 @@ This study utilizes an integrated bioinformatics approach to identify key molecu
 * **Metric:** Relapse-Free Survival (RFS).
 
 ## Project Structure
+
+```text
 BRCA-Hub-Gene-Network/
 ├── data/
 │   ├── raw_GSE10810_data.txt      # The file from GEO2R
-│   ├── processed_DEGs.xlsx        # Your Excel file with UP/DOWN sheets
-│   └── string_interactions.tsv    # The file from STRING
+│   ├── processed_DEGs.xlsx        # Excel file with UP/DOWN sheets
+│   └── string_interactions.tsv    # STRING database output
 ├── results/
-│   ├── volcano_plot.png           # From GEO2R
-│   ├── string_network.png         # From STRING
-│   └── hub_gene_network.png       # Your Cytoscape Image (The one you made)
+│   ├── volcano_plot.png           # GEO2R output
+│   ├── string_network.png         # STRING interaction network
+│   └── hub_gene_network.png       # Cytoscape hub gene network
 ├── docs/
-│   └── manuscript_draft.pdf       # The paper you are writing
-└── README.md                      # The "Landing Page" (See below)
+│   └── manuscript_draft.pdf       # Manuscript draft
+└── README.md                      # Project landing page
+```
